@@ -1,5 +1,7 @@
 students = ["Nurislam", "Olzhas", "Elaman"]
 
-print("Least of students:")
-for s in students:
-    print(s)
+def show_students():
+    for s in students:
+        print(s)
+
+show_students()
