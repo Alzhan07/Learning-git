@@ -1,7 +1,7 @@
 students = ["Nurislam", "Olzhas", "Elaman"]
 
-def show_students():
+def find_student(name):
     for s in students:
-        print(s)
-
-show_students()
+        if s.lower() == name.lower():
+            return s
+    return None
